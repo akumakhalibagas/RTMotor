@@ -69,7 +69,7 @@ app.use(function(err, req, res, next) {
     res.render('error');
 });
 module.exports = app;
-const APP_PORT = process.env.PORT || '3000';
+const APP_PORT = process.env.PORT || '3030';
 app.listen(APP_PORT, () => {
     console.log(`Server started on port ${APP_PORT}...`);
   });
